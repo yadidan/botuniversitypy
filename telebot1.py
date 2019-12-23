@@ -4,7 +4,7 @@ from docx import Document
 global mas
 mas=None
 mas=[]
-bot = telebot.TeleBot('1055740850:AAE6PrRsj4pRefeGnRX_UlXMTtvKYTHNxpw')
+bot = telebot.TeleBot(tokenyou)
 
 @bot.message_handler(content_types=['text'])
 def qq(message):
